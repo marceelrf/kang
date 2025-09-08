@@ -4,3 +4,6 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+colored = "3"
+clap = { version = "4.4", features = ["derive"] }  # For parsing CLI arguments
+rust-htslib = "0.46.0"
